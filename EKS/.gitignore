@@ -1,0 +1,10 @@
+# Ignorar todos los archivos ejecutables .exe
+*.exe
+
+# Ignorar directorios específicos
+EKS/.terraform/
+jenkins-sonarqube-trivy-server/.terraform/
+# Ignorar archivos temporales o generados
+*.log
+*.tmp
+*.bak

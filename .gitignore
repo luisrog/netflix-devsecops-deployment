@@ -1,0 +1,16 @@
+# Ignorar ejecutables
+*.exe
+
+# Ignorar archivos y directorios de Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Ignorar archivos de registro y temporales
+*.log
+*.tmp
+*.bak
+
+# Ignorar carpetas específicas
+EKS/.terraform/
+jenkins-sonarqube-trivy-server/.terraform/
